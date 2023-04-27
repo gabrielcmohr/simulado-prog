@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+<script>
+    /*Uma pessoa utiliza o transporte público diariamente para ir e voltar de São Francisco do Sul para Araquari. Pergunte ao usuário o custo de cada passagem. Seu filho também o acompanha durante a viagem, porém paga apenas metade do preço por ser estudante.
+
+Calcule e apresente, ao final do programa, o custo total mensal que os dois terão em transporte, considerando que o mês possui 22 dias úteis.*/
+
+const passagem = prompt("Quanto custa cada passagem?");
+
+const pai = passagem * 22;
+const filho = (passagem / 2) * 22;
+const total = (pai + filho) * 2;
+
+document.write("O custo total que os dois terão em transporte será " + total + ".");
+</script>
